@@ -127,7 +127,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DZ-27.7.cpp" />
+    <ClCompile Include="chat-client.cpp" />
+    <ClCompile Include="chat-server.cpp" />
+    <ClCompile Include="client.cpp" />
+    <ClCompile Include="cripto.cpp" />
+    <ClCompile Include="input.cpp" />
+    <ClCompile Include="logger.cpp" />
+    <ClCompile Include="memory_allocation_exception.cpp" />
+    <ClCompile Include="message.cpp" />
+    <ClCompile Include="message_logger.cpp" />
+    <ClCompile Include="network_exception.cpp" />
+    <ClCompile Include="send.cpp" />
+    <ClCompile Include="server.cpp" />
+    <ClCompile Include="sql.cpp" />
+    <ClCompile Include="user.cpp" />
+    <ClCompile Include="utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="cripto.h" />
+    <ClInclude Include="input.h" />
+    <ClInclude Include="logger.h" />
+    <ClInclude Include="memory_allocation_exception.h" />
+    <ClInclude Include="message.h" />
+    <ClInclude Include="message_logger.h" />
+    <ClInclude Include="network_exception.h" />
+    <ClInclude Include="rtype.h" />
+    <ClInclude Include="send.h" />
+    <ClInclude Include="server.h" />
+    <ClInclude Include="sql.h" />
+    <ClInclude Include="user.h" />
+    <ClInclude Include="utils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
